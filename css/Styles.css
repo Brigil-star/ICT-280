@@ -24,7 +24,7 @@ h3 {
 /* Paragraphs */
 p {
     font-size: 12;
-    color: navy; /* likely white */
+    color: rgb(245, 245, 249); /* likely white */
 }
 
 /* Lists */
@@ -37,4 +37,14 @@ li {
     border: 2px solid blue;      /* from original */
     padding: 4px;
     margin: 2px;
+}
+form {
+width: 50%;
+margin: 0 auto;
+}
+
+@media (max-width: 600px) {
+    form {
+        width: 90%;
+    }
 }
