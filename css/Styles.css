@@ -1,0 +1,40 @@
+/* =========================
+   1. Page Background
+   ========================= */
+body {
+    background-color: rgb(65, 173, 215);   
+    font-family: 'Times New Roman', Times, serif;      
+    margin: 2;             
+    padding: 3;            
+}
+ 
+/* Headers */
+h1 {
+    font-size: 9;
+    color: red; /* try white */
+}
+h2 {
+    font-size: 8;
+    color: purple; 
+}
+h3 {
+    font-size: 8;
+    color: purple;
+}
+/* Paragraphs */
+p {
+    font-size: 12;
+    color: navy; /* likely white */
+}
+
+/* Lists */
+li {
+    color: rgb(219, 33, 170); /* likely white */
+}
+/* Example box */
+.example-box {
+    background-color: lightblue; /* from original */
+    border: 2px solid blue;      /* from original */
+    padding: 4px;
+    margin: 2px;
+}
